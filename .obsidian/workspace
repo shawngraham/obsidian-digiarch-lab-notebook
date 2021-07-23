@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "a5769bdb4d9c03a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "61ac2f1bf33c1294",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "getting-started.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c6299608bfea167",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffb8442bc0c6c98a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2362dc719cf03894",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5aa23c457129f5ba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210
+  },
+  "right": {
+    "id": "a0898b6d33dea443",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc3611e36e9aa538",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6f18692c7daf9eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "getting-started.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "71a1418996c42d71",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "getting-started.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9bd4c32ac0ccb8f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "getting-started.md"
+              }
+            }
+          },
+          {
+            "id": "e9ec4274a7ee9af1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "61ac2f1bf33c1294",
+  "lastOpenFiles": [
+    "getting-started.md",
+    "submitting work.md",
+    "key dates hist3000.md",
+    "key dates hist5706f 2021.md",
+    "_simple-templates/consolidation.md",
+    "_simple-templates/journal.md",
+    "Untitled.md",
+    "_simple-templates/log.md",
+    "journal.md",
+    "_simple-templates/worksheet.md"
+  ]
+}
