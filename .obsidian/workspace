@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "getting-started.md",
+            "file": "key dates hist3000.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "getting-started.md",
+                "file": "key dates hist3000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "getting-started.md",
+                "file": "key dates hist3000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "getting-started.md"
+                "file": "key dates hist3000.md"
               }
             }
           },
@@ -121,9 +121,9 @@
   },
   "active": "61ac2f1bf33c1294",
   "lastOpenFiles": [
+    "key dates hist3000.md",
     "getting-started.md",
     "submitting work.md",
-    "key dates hist3000.md",
     "key dates hist5706f 2021.md",
     "_simple-templates/consolidation.md",
     "_simple-templates/journal.md",
