@@ -21,6 +21,8 @@ A video showing just how powerful Obsidian can be for your notetaking can be fou
 	- when you're working on a consolidation entry, use the `consolidation` template
 - otherwise, make notes as you read or think about the content of the course. One strategy is to make a new note for a unique thought/idea. You can make your own templates by making a note with the headings you want, and then move it into the `_simple-templates` folder.
 
+See the [[submitting work]] note.
+
 Periodically, explore and re-read your notes with an eye to creating links between them.  Type `[[` and `]]` to find connections between your notes, and to interlink them (you can also highlight a word, and then type the square brackets). As you type, Obsidian searches through your notes to find notes by title or content. (NB: one square bracket `[like this]` is the first part of making an _external_ link in your note, `[like this](https://example.com)`).
 
 If you click on the 'open vault' button, you can load/open the default vault that comes with Obsidian, and which will show you other aspects of Obsidian's functionality. You can have more than one vault open at a time.

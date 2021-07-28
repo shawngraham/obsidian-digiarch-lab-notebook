@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "key dates hist3000.md",
+            "file": "submitting work.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "key dates hist3000.md",
+                "file": "submitting work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "key dates hist3000.md",
+                "file": "submitting work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "key dates hist3000.md"
+                "file": "submitting work.md"
               }
             }
           },
@@ -121,14 +121,14 @@
   },
   "active": "61ac2f1bf33c1294",
   "lastOpenFiles": [
-    "key dates hist3000.md",
-    "getting-started.md",
     "submitting work.md",
-    "key dates hist5706f 2021.md",
     "_simple-templates/consolidation.md",
+    "getting-started.md",
     "_simple-templates/journal.md",
-    "Untitled.md",
     "_simple-templates/log.md",
+    "key dates hist3000.md",
+    "key dates hist5706f 2021.md",
+    "Untitled.md",
     "journal.md",
     "_simple-templates/worksheet.md"
   ]
