@@ -155,50 +155,27 @@ switch (hypothesisAction) {
 
 if (articleAnnotations==null || articleAnnotations.length == 0) return '';
 
-`/* TEMPLATE STARTS HERE */`
+/* TEMPLATE STARTS HERE */
+if (tp.file.content.length==0) {
+  //likely a new document, insert front matter
+  tR += `---\n`;
+  tR += `fileType: HypothesisAnnotations\n`;
+  tR += `creationDate: ${tp.date.now('YYYY-MM-DD')} \n`;
+  tR += `annotationDate: ${articleAnnotations[0].created.substring(0,10)}\n`;
+  tR += `uri: ${articleAnnotations[0].uri}\n`;
+  tR += `---\n`;
+}
 
-`if` `(tp.file.content.length==0) {`
+tR += `# ${articleAnnotations[0].title}\n`
+tR += `URL: ${articleAnnotations[0].uri}\n\n`
 
- `//likely a new document, insert front matter`
-
- ``tR += `---\n`;``
-
- ``tR += ` ```fileType```: HypothesisAnnotations\n`;``
-
- ``tR += `creationDate: ${tp.```date``.now(``'YYYY-MM-DD'```)} \n`;``
-
- ``tR += `annotationDate: ${articleAnnotations[0].created.substring(0,10)}\n`;``
-
- ``tR += `uri: ${articleAnnotations[0].uri}\n`;``
-
- ``tR += `---\n`;``
-
-`}`
-
-``tR += `# ${articleAnnotations[0].title}\n` ``
-
-``tR += `URL: ${articleAnnotations[0].uri}\n\n` ``
-
-`for``( a of articleAnnotations) {`
-
- `let tags =` `''``;`
-
- `let user =` `''``;`
-
- `if``(a.tags.length>0) tags =` `' '` `+ (a.tags.map(t=>` `'[['``+ t +` `']]'``)).join(``' '``);`
-
- `if``(insertUser) user =` `' _('` `+ a.user.replace(``'acct:'``,``''``).replace(``'@hypothes.is'``,``''``) +` `')_'``;`
-
- `if```(a.text) tR += `${a.text}\n&mdash;[[${user}]]\n\n`;``
-
- ``tR += `## Source \n`;``
-
- ``tR += `> ${a.highlight}[^1]\n\n`;``
-
- ``tR += `[^1]: [${articleAnnotations[0].title}](${articleAnnotations[0].uri}) | [syndication link](tk) \n`;``
-
- ``tR += `\n---\ntags: \nlinks: ${tags} \n- broader terms (BT):  \n- narrower terms (NT):  \n- related terms (RT):  \n- used`` `for` `(UF)` `or` ``aliases:  \nconnected ideas:  \n---\n`;``
-
-`}`
-
-`%>`
+for( a of articleAnnotations) {
+  let tags = '';
+  let user = '';
+  if(a.tags.length>0) tags = ' ' + (a.tags.map(t=> '#'+ t)).join(' ');
+  if(insertUser) user = ' _(' + a.user.replace('acct:','').replace('@hypothes.is','') + ')_';
+  tR += `> ${a.highlight}${tags}${user}\n`;
+  if(a.text) tR += `+ ${a.text}\n`;
+  tR += `\n`;
+}
+%>

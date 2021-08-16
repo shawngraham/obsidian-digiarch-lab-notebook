@@ -7,11 +7,8 @@
         "id": "61ac2f1bf33c1294",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "submitting work.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "submitting work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "submitting work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "submitting work.md"
-              }
+              "state": {}
             }
           },
           {
@@ -121,15 +114,15 @@
   },
   "active": "61ac2f1bf33c1294",
   "lastOpenFiles": [
-    "submitting work.md",
-    "_simple-templates/consolidation.md",
-    "getting-started.md",
-    "_simple-templates/journal.md",
-    "_simple-templates/log.md",
-    "key dates hist3000.md",
-    "key dates hist5706f 2021.md",
+    "log-for-week-8.md",
+    "_complex-templates/hypothesis.md",
     "Untitled.md",
-    "journal.md",
-    "_simple-templates/worksheet.md"
+    "log-for-week-1.md",
+    "getting-started.md",
+    "submitting work.md",
+    "key dates hist3000.md",
+    "_simple-templates/consolidation.md",
+    "_simple-templates/journal.md",
+    "_simple-templates/log.md"
   ]
 }
